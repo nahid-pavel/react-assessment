@@ -1,0 +1,23 @@
+.item-card{
+    position:relative;
+}
+
+.item-card .view{
+    position:absolute;
+    top:30%;
+    left:30%;
+    display:none;
+    cursor:pointer;
+}
+
+.item-card:hover{ 
+    opacity:0.6;
+    display:block;
+    
+}
+.item-card:hover  .view{
+    display:block;
+}
+
+
+
